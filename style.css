@@ -6,7 +6,11 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    
 }
+header {
+    border: 2px solid red;
+  }
 
 nav ul{
     display: flex;
@@ -36,6 +40,7 @@ width: 600px;
 display: inline;
 flex-direction: column;
 gap: 1rem;
+
 }
 
 .news-item img{
